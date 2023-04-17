@@ -1,0 +1,22 @@
+import "bootstrap/dist/css/bootstrap.css";
+import Link from "next/link";
+import Image from "next/image";
+
+const Navbar = () => {
+  return (
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+      <ul className="navbar-nav">
+      <li className="nav-item">
+          <Link className="nav-link navbar-brand" href="/">
+            <Image src="/NorthStar-32x32.ico" alt="logo" width="32" height="32"></Image>
+        &nbsp;EA Home</Link>
+        </li>
+        {/*<li className="nav-item">*/}
+        {/*  <Link className="nav-link navbar-brand" href="https://volvogroup.sharepoint.com/sites/unit-vfs-architecture/SitePages/Home.aspx">VFS Architecture & Business Design Sharepoint</Link>*/}
+        {/*</li>*/}
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
