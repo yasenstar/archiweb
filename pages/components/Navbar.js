@@ -9,10 +9,10 @@ const Navbar = () => {
       <li className="nav-item">
           <Link className="nav-link navbar-brand" href="/">
             <Image src="/NorthStar-32x32.ico" alt="logo" width="32" height="32"></Image>
-        &nbsp;EA Home</Link>
+        &nbsp;Home</Link>
         </li>
         {/*<li className="nav-item">*/}
-        {/*  <Link className="nav-link navbar-brand" href="https://volvogroup.sharepoint.com/sites/unit-vfs-architecture/SitePages/Home.aspx">VFS Architecture & Business Design Sharepoint</Link>*/}
+        {/*  <Link className="nav-link navbar-brand" href="">Link</Link>*/}
         {/*</li>*/}
       </ul>
     </nav>
