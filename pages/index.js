@@ -31,6 +31,14 @@ export default function Home() {
             <div className="col-md-4">
               <h2>ArchiSurance</h2>
               <p>ArchiSurance Case Study Modeling (v3.1)</p>
+              <a className="btn btn-primary" href="html/ArchiSurance/index.html">
+                View details »
+              </a>
+            </div>
+
+            <div className="col-md-4">
+              <h2>ArchiSurance</h2>
+              <p>ArchiSurance Case Study Modeling (v3.1)</p>
               <a className="btn btn-primary" href="html/ArchiSurance/index.html?view=id-7d7e5cdc6a9043be8add816e1f7dd0db">
                 View details »
               </a>
