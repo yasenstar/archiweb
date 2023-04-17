@@ -2,7 +2,7 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import styles from '../../styles/Home.module.css'
+// import styles from '../../styles/Home.module.css'
 
 /* const myFont = localFont({
   src: "fonts/VOLVONOVUM-MEDIUM.TTF",
@@ -10,7 +10,7 @@ import styles from '../../styles/Home.module.css'
 
 const RootLayout = ({ children }) => {
   return (
-    <div className={styles.myFont}>
+    <div>
       <Navbar></Navbar>
       <main>{children}</main>
       <Footer></Footer>

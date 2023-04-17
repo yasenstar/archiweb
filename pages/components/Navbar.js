@@ -8,8 +8,7 @@ const Navbar = () => {
       <ul className="navbar-nav">
       <li className="nav-item">
           <Link className="nav-link navbar-brand" href="/">
-            <Image src="/NorthStar-32x32.ico" alt="logo" width="32" height="32"></Image>
-        &nbsp;Home</Link>
+            <Image src="/favicon.ico" alt="logo" width="32" height="32"></Image>&nbsp;Home</Link>
         </li>
         {/*<li className="nav-item">*/}
         {/*  <Link className="nav-link navbar-brand" href="">Link</Link>*/}

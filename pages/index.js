@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,34 +31,23 @@ export default function Home() {
             <div className="col-md-4">
               <h2>ArchiSurance</h2>
               <p>ArchiSurance Case Study Modeling (v3.1)</p>
-              <a className="btn btn-primary" href="html/ArchiSurance/index.html">
+              <a className="btn btn-primary" href="html/ArchiSurance/index.html?view=id-7d7e5cdc6a9043be8add816e1f7dd0db">
                 View details »
               </a>
             </div>
 
             {/* <div className="col-md-4">
-              <h2>VFS Application Architecture</h2>
+              <h2>Other</h2>
               <p>
-                Variable viewpoints to find suitable VFS applications
-                information
+                text
               </p>
               <Link
                 className="btn btn-primary"
-                href="AppArch/VFS_AppPortfolio"
-                alt="VFS Application Portfolio"
+                href="AppArch/AppPortfolio"
+                alt="Application Portfolio"
               >
                 View details »
               </Link>
-            </div>
-
-            <div className="col-md-4">
-              <h2>VFS EA Dashboards</h2>
-              <p>
-                VFS Enterprise Architecture views from Essential
-              </p>
-              <a className="btn btn-primary" href="https://segotn17948.vcn.ds.volvo.net/vfs_knowledge_portal/report?XML=reportXML.xml&PMA=essential_baseline_v5_Class83&XSL=common/portal_template.xsl&LABEL=Enterprise%20Architecture%20Portal&cl=en-gb">
-                View details »
-              </a>
             </div> */}
 
           </div>
